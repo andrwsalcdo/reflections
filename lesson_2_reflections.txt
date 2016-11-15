@@ -45,9 +45,17 @@ How do the diagrams help you visualize the branch structure?
   a parent within a branch. The diagrams help us realize why certain commits are
   not affecting others, due to different branches, and help us make decision on
   where we can branch out or merge possible branch tips for the good of the project.
-  yea, that's all I got. 
+  yea, that's all I got.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+      you combine or merge all the commits of both branches into a single branch.
+      you can get rid of the label of the 2nd branch, it's no longer needed.
+      it is important to represent in that way in the diagram to illustrate that
+      each commit has reachability and a parent. it was a pain in the ass to merge
+      these branches, took me much more time than anticipated, but that was due
+      to a communication error and my eagerness to jump ahead and 'figure things'
+      out on my own. uh, it was very frustrating. i didn't realize that the 'coins'
+      branch would be remote/hidden, so i created that branch myself, and that caused
+      all sorts of issues. damn. anyway, it's all good now. 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
