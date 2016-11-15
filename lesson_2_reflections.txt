@@ -36,10 +36,16 @@ organized? How would branches help?
     complete, so it's better to make a new branch off the master then make a
     new repository. It could get lost and its purpose forgotten if it's made into
     a new repo, instead of a new branch. Branches keep everything in perspective
-    for the project.  
+    for the project.
 
 How do the diagrams help you visualize the branch structure?
 
+  uhh, because they are visual. It helps you realize the reachability of a commit
+  or branch. a commit is unreachable if its not in the branch and is connected to
+  a parent within a branch. The diagrams help us realize why certain commits are
+  not affecting others, due to different branches, and help us make decision on
+  where we can branch out or merge possible branch tips for the good of the project.
+  yea, that's all I got. 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
