@@ -1,0 +1,31 @@
+Lesson 2
+
+What happens when you initialize a repository? Why do you need to do it?
+  when you initialize there is an empty hidden directory created named (.git)
+   in the directory, and you do this by "git init" within the directory on Git Bash.
+    afterwards, you should check that the Untracked files & sub-directories you want
+    are included in this repo. So, "git status" will show you
+    there are no commits yet in your repo, and what files/sub-directories
+    are included in your repo
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    The working directory is the area that holds original files.
+    The repo holds those files that are bundled as commits, and is a collection
+    of those commits, a version control of the project throughout its lifecycle.
+    The staging area allows the user to decide how to organize the files from
+    the working directory before sending it to the repository.
+    The value it brings is the ability for the user to organize and carefully
+    manage how files are sent from the working directory to the repository.
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
