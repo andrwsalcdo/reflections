@@ -1,14 +1,17 @@
 Lesson 2
 
 What happens when you initialize a repository? Why do you need to do it?
+
   when you initialize there is an empty hidden directory created named (.git)
    in the directory, and you do this by "git init" within the directory on Git Bash.
     afterwards, you should check that the Untracked files & sub-directories you want
     are included in this repo. So, "git status" will show you
     there are no commits yet in your repo, and what files/sub-directories
     are included in your repo
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
     The working directory is the area that holds original files.
     The repo holds those files that are bundled as commits, and is a collection
     of those commits, a version control of the project throughout its lifecycle.
@@ -16,6 +19,7 @@ What value do you think it offers?
     the working directory before sending it to the repository.
     The value it brings is the ability for the user to organize and carefully
     manage how files are sent from the working directory to the repository.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
@@ -46,16 +50,29 @@ How do the diagrams help you visualize the branch structure?
   not affecting others, due to different branches, and help us make decision on
   where we can branch out or merge possible branch tips for the good of the project.
   yea, that's all I got.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-      you combine or merge all the commits of both branches into a single branch.
-      you can get rid of the label of the 2nd branch, it's no longer needed.
-      it is important to represent in that way in the diagram to illustrate that
-      each commit has reachability and a parent. it was a pain in the ass to merge
-      these branches, took me much more time than anticipated, but that was due
-      to a communication error and my eagerness to jump ahead and 'figure things'
-      out on my own. uh, it was very frustrating. i didn't realize that the 'coins'
-      branch would be remote/hidden, so i created that branch myself, and that caused
-      all sorts of issues. damn. anyway, it's all good now. 
+
+    you combine or merge all the commits of both branches into a single branch.
+    you can get rid of the label of the 2nd branch, it's no longer needed.
+    it is important to represent in that way in the diagram to illustrate that
+    each commit has reachability and a parent. it was a pain in the ass to merge
+    these branches, took me much more time than anticipated, but that was due
+    to a communication error and my eagerness to jump ahead and 'figure things'
+    out on my own. uh, it was very frustrating. i didn't realize that the 'coins'
+    branch would be remote/hidden, so i created that branch myself, and that caused
+    all sorts of issues. damn. anyway, it's all good now.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    automatic merging: pros: automatic, easy, convenient.
+    cons: could merge the wrong code, cause confusion, break the code, cause
+    mountains of headache trying to resolve the problem of automatically merging
+    complex code. 
+    manual merging: cons: human error, not easy, more time consuming.
+    pros: avoid possible headaches with complex merges, you decide what needs
+    to be merged--it's very difficult for a machine to decide which lines of
+    code to merge in complex cases, so it's up to the user. Make merges at small
+    logical steps/points within the code.
