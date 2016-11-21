@@ -21,7 +21,7 @@ use one instead of another?
     the same repo. Forking and cloning both copy an entire repo to
     a new location. Forking is copying a repo only within Github, and it's
     Github's creation. You can only fork a GitHub repo to another place on
-    GitHub, while you can clone any Git repo to any 'local' machine. 
+    GitHub, while you can clone any Git repo to any 'local' machine.
 
     I would use branching for most cases where I want to add new changes to a
     repo while keeping an easy reference to a previous version, especially
@@ -30,3 +30,12 @@ use one instead of another?
     website.  I would fork a repo on GitHub when I want to make public changes
     to that repo, but I don't have permission to alter the original version
     yet.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+  If you want to work offline, like when you're getting on a plane, than
+  pulling the last state locally would be a good idea. You can look and work
+  on those new changes, and you can choose whether or not to merge those changes
+  onto your local branches. You have easy access to the remote version this way,
+  and there are plenty of things you can do while offline, like merging. 
