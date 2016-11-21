@@ -2,12 +2,12 @@ Lesson 2
 
 What happens when you initialize a repository? Why do you need to do it?
 
-  when you initialize there is an empty hidden directory created named (.git)
-   in the directory, and you do this by "git init" within the directory on Git Bash.
-    afterwards, you should check that the Untracked files & sub-directories you want
-    are included in this repo. So, "git status" will show you
-    there are no commits yet in your repo, and what files/sub-directories
-    are included in your repo
+when you initialize there is an empty hidden directory created named (.git)
+ in the directory, and you do this by "git init" within the directory on Git Bash.
+  afterwards, you should check that the Untracked files & sub-directories you want
+  are included in this repo. So, "git status" will show you
+  there are no commits yet in your repo, and what files/sub-directories
+  are included in your repo
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -70,7 +70,7 @@ manually?
     automatic merging: pros: automatic, easy, convenient.
     cons: could merge the wrong code, cause confusion, break the code, cause
     mountains of headache trying to resolve the problem of automatically merging
-    complex code. 
+    complex code.
     manual merging: cons: human error, not easy, more time consuming.
     pros: avoid possible headaches with complex merges, you decide what needs
     to be merged--it's very difficult for a machine to decide which lines of

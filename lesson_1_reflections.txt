@@ -1,8 +1,9 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    you are able to see the difference between 2 versions at a much faster rate, if you consider these versions could have 1000s lines
-    of code. So, this procedure allows you to see your "bug" at a faster rate, allowing you
+    you are able to see the difference between 2 versions at a much faster rate,
+    if you consider these versions could have 1000s lines of code. So, this
+    procedure allows you to see your "bug" at a faster rate, allowing you
     to solve the issue much faster, and move on with your work.
 
 How could having easy access to the entire history of a file make you a more
@@ -36,16 +37,16 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    git log: you see the history of the repository, or all the commits associated with the repo.
-    you can see each commit Id, and its associated message to determine who, when,
-    and what was done on each commit.
-    git diff: compares 2 commits using their respective id that comes from the
-    git log. git diff is useful to compare what was added/deleted in a single
-    commit when compared to the previous one. you can access quite quickly and easily,
-    any changes that were made in the code, and try to find your mistake and so
-    on. It surely would make life much easier when you are dealing with a
-    big project that involves a team. Even if you want to break up your personal
-    project into manageable steps, this can be useful as well.
+  git log: you see the history of the repository, or all the commits associated
+  with the repo.you can see each commit Id, and its associated message to
+  determine who, when, and what was done on each commit.
+  git diff: compares 2 commits using their respective id that comes from the
+  git log. git diff is useful to compare what was added/deleted in a single
+  commit when compared to the previous one. you can access quite quickly and easily,
+  any changes that were made in the code, and try to find your mistake and so
+  on. It surely would make life much easier when you are dealing with a
+  big project that involves a team. Even if you want to break up your personal
+  project into manageable steps, this can be useful as well.
 
 How might using version control make you more confident to make changes that
 could break something?
@@ -64,4 +65,4 @@ Now that you have your workspace set up, what do you want to try using Git for?
     modifying, experimenting, and improving Udacity projects. I think it will
     be a great tool, and make it easier for me to organize what is going on with
     my code. If I practice now, then it'll only benefit me when I'm working
-    on a big project with many people in a formal job setting. 
+    on a big project with many people in a formal job setting.
