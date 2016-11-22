@@ -38,4 +38,13 @@ stored locally?
   pulling the last state locally would be a good idea. You can look and work
   on those new changes, and you can choose whether or not to merge those changes
   onto your local branches. You have easy access to the remote version this way,
-  and there are plenty of things you can do while offline, like merging. 
+  and there are plenty of things you can do while offline, like merging.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  uhh, I think it would be a trillion dollar headache to collaborate without git.
+  But, sure, you can use a shared folder on Dropbox, but problems arise when
+  trying to combine changes. Google docs would be okay, if it existed for code.
+  However, problems would arise if working on the same file simultaneously, as
+  multiple changes could compound into bugs and go unnoticed.   
