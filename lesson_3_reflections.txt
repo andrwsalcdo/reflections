@@ -47,4 +47,12 @@ and what would be harder?
   But, sure, you can use a shared folder on Dropbox, but problems arise when
   trying to combine changes. Google docs would be okay, if it existed for code.
   However, problems would arise if working on the same file simultaneously, as
-  multiple changes could compound into bugs and go unnoticed.   
+  multiple changes could compound into bugs and go unnoticed.
+
+  When would you want to make changes in a separate branch rather than directly in
+  master?  What benefits does each approach have?
+
+    When working with others I think branches would be a great idea;
+    that way you can review and approve any changes and not worry
+    about 'breaking' master. I think for personal projects working under master
+    could be sufficient. 
